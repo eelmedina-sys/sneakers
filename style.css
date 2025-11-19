@@ -1,0 +1,36 @@
+
+
+
+body{
+    background:linear-gradient(to right,rgb(219, 219, 240), rgb(159, 159, 212) 100%);
+    font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  cursor: ;
+
+}
+
+
+
+
+.box{
+    width:80% ;
+    margin: auto;
+    background-color:wheat ;
+    padding:20px ;
+    box-shadow: 0 0 10px rgb(47, 46, 46) ;
+    border:22px solid rgb(0, 0, 0) ;
+    border-radius:32px ;
+}
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: rgb(0, 58, 139);
+}
+
