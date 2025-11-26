@@ -1,12 +1,16 @@
 
-
-
+html {
+    cursor:url("https://img.icons8.com/?size=30&id=TdbpMMmYMvER&format=png&color=000000"),auto;
+ 
+}                                                                                
+ 
+  
 body{
-    background:linear-gradient(to right,rgb(219, 219, 240), rgb(159, 159, 212) 100%);
+    background:linear-gradient(to right,rgb(219, 219, 240), rgb(205, 205, 224) 100%);
     font-family: "Boldonse", system-ui;
   font-weight: 400;
   font-style: normal;
-  cursor: ;
+
 
 }
 
@@ -25,12 +29,69 @@ body{
 
 
 
-
-
-
-
 a{
     text-decoration: none;
     color: rgb(0, 58, 139);
+        cursor:url("https://img.icons8.com/?size=30&id=0DZVqi4HKP6A&format=png&color=000000"),auto;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    border-bottom: 2px solid rgb(161, 153, 102);
 }
 
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+  gap: 90px;
+
+}
+.hero-section{
+    background-image:url(images/images/hero-section.png);
+    color: rgb(249, 206, 206);
+    padding: 12px;
+    background-size:cover;
+}
+button.hero-section{
+      cursor:url("https://img.icons8.com/?size=30&id=TdbpMMmYMvER&format=png&color=000000"),auto;
+      color: antiquewhite;
+      padding: 22px 32px;
+      border: 1px solid rgb(255, 225, 204);
+      border-radius: 12px;
+      font-size: medium;
+      margin-top: 152px;
+}
+.produktet{
+    text-decoration:none;
+    color: rgb(36, 37, 37);
+    cursor:url("https://img.icons8.com/?size=30&id=TdbpMMmYMvER&format=png&color=000000"),auto;
+      
+
+
+}
+.flex{
+    display: flex;
+    gap: 12px;
+   
+}
+.flex img{
+    width: 255px;
+    height:255px;
+}
+article{
+    margin-top: 22px;
+    position: relative;
+
+}
+article button{
+    margin-top: -32px;
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+
+}
