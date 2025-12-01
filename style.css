@@ -82,16 +82,30 @@ button.hero-section{
 .flex img{
     width: 255px;
     height:255px;
+    border-radius: 22px;
 }
 article{
-    margin-top: 22px;
+    margin-top: 122px;
+    margin-left: 50px;
     position: relative;
 
 }
 article button{
-    margin-top: -32px;
+    margin-top: 12px;
   position: absolute;
   bottom: 12px;
   left: 12px;
+  cursor:url("https://img.icons8.com/?size=30&id=TdbpMMmYMvER&format=png&color=000000"),auto;
+      
 
+
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background:linear-gradient(to right,rgba(219, 219, 240, 0.153), rgba(205, 205, 224, 0.208) 100%);
+   
+    margin-top: 22px;
+     border-radius: 22px;
+   
 }
